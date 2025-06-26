@@ -16,7 +16,8 @@ venv/
 # React / Vite
 dist/
 build/
-*.local
+*.local/
+.gitignore
 
 # VS Code / IDEs
 .vscode/
