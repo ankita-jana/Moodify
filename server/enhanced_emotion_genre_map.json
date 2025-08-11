@@ -1,0 +1,256 @@
+{
+  "happy": {
+    "sub_emotions": ["joyful", "cheerful", "content", "excited", "delighted"],
+    "genres": {
+      "today": {
+        "english": "pop upbeat hits",
+        "hindi": "bollywood dance hits",
+        "bengali": "bengali pop hits",
+        "tamil": "tamil upbeat hits",
+        "punjabi": "bhangra hits",
+        "default": "upbeat pop"
+      },
+      "90s": {
+        "english": "90s pop hits",
+        "hindi": "90s bollywood dance hits",
+        "bengali": "90s bengali folk hits",
+        "tamil": "90s tamil upbeat hits",
+        "punjabi": "90s bhangra hits",
+        "default": "90s upbeat hits"
+      },
+      "mixed": {
+        "english": "happy pop mix hits",
+        "hindi": "bollywood dance mix hits",
+        "bengali": "bengali happy mix hits",
+        "tamil": "tamil happy mix hits",
+        "punjabi": "punjabi happy mix hits",
+        "default": "mixed upbeat hits"
+      }
+    }
+  },
+  "sad": {
+    "sub_emotions": ["melancholy", "gloomy", "blue", "downcast", "sorrowful"],
+    "genres": {
+      "today": {
+        "english": "sad pop hits",
+        "hindi": "bollywood heartbreak hits",
+        "bengali": "bengali sad hits",
+        "tamil": "tamil sad hits",
+        "punjabi": "punjabi sad hits",
+        "default": "emotional ballads hits"
+      },
+      "90s": {
+        "english": "90s emotional pop hits",
+        "hindi": "90s bollywood heartbreak hits",
+        "bengali": "90s bengali sad hits",
+        "tamil": "90s tamil sad hits",
+        "punjabi": "90s punjabi sad hits",
+        "default": "90s classic sad hits"
+      },
+      "mixed": {
+        "english": "sad pop mix hits",
+        "hindi": "bollywood sad mix hits",
+        "bengali": "bengali sad mix hits",
+        "tamil": "tamil emotional mix hits",
+        "punjabi": "punjabi sad mix hits",
+        "default": "melancholy mix hits"
+      }
+    }
+  },
+  "angry": {
+    "sub_emotions": ["frustrated", "irritated", "mad", "enraged", "agitated"],
+    "genres": {
+      "today": {
+        "english": "hard rock hits",
+        "hindi": "bollywood rage hits",
+        "bengali": "bengali rock hits",
+        "tamil": "tamil intense hits",
+        "punjabi": "punjabi diss hits",
+        "default": "rock anthems"
+      },
+      "90s": {
+        "english": "90s rock hits",
+        "hindi": "90s bollywood intense hits",
+        "bengali": "90s bengali rock hits",
+        "tamil": "90s tamil action hits",
+        "punjabi": "90s punjabi battle hits",
+        "default": "90s rock anthems"
+      },
+      "mixed": {
+        "english": "angry rock mix hits",
+        "hindi": "bollywood rage mix hits",
+        "bengali": "bengali anger mix hits",
+        "tamil": "tamil angry mix hits",
+        "punjabi": "punjabi bold mix hits",
+        "default": "angry mix anthems"
+      }
+    }
+  },
+  "fear": {
+    "sub_emotions": ["anxious", "nervous", "scared", "tense", "worried"],
+    "genres": {
+      "today": {
+        "english": "dark ambient hits",
+        "hindi": "bollywood thriller hits",
+        "bengali": "bengali suspense hits",
+        "tamil": "tamil suspense hits",
+        "punjabi": "punjabi dark hits",
+        "default": "ambient suspense"
+      },
+      "90s": {
+        "english": "90s thriller hits",
+        "hindi": "90s bollywood thriller hits",
+        "bengali": "90s bengali mystery hits",
+        "tamil": "90s tamil horror hits",
+        "punjabi": "90s punjabi mystery hits",
+        "default": "retro suspense hits"
+      },
+      "mixed": {
+        "english": "fear ambient + retro hits",
+        "hindi": "bollywood thriller mix hits",
+        "bengali": "bengali fear mix hits",
+        "tamil": "tamil suspense mix hits",
+        "punjabi": "punjabi horror mix hits",
+        "default": "dark mystery mix hits"
+      }
+    }
+  },
+  "surprise": {
+    "sub_emotions": ["shocked", "amazed", "astonished", "startled", "speechless"],
+    "genres": {
+      "today": {
+        "english": "experimental pop hits",
+        "hindi": "bollywood fusion hits",
+        "bengali": "bengali experimental hits",
+        "tamil": "tamil genre-mix hits",
+        "punjabi": "punjabi fusion hits",
+        "default": "electro-pop hits"
+      },
+      "90s": {
+        "english": "90s surprise hits",
+        "hindi": "90s bollywood mix hits",
+        "bengali": "90s bengali hits",
+        "tamil": "90s tamil surprise hits",
+        "punjabi": "90s punjabi mashup hits",
+        "default": "classic surprise hits"
+      },
+      "mixed": {
+        "english": "surprise genre mix hits",
+        "hindi": "bollywood mashup hits",
+        "bengali": "bengali surprise mix hits",
+        "tamil": "tamil funky mix hits",
+        "punjabi": "punjabi surprise mix hits",
+        "default": "genre surprise hits"
+      }
+    }
+  },
+  "disgust": {
+    "sub_emotions": ["grossed out", "nauseated", "repulsed", "revolted", "detested"],
+    "genres": {
+      "today": {
+        "english": "industrial rock hits",
+        "hindi": "bollywood dark hits",
+        "bengali": "bengali dark hits",
+        "tamil": "tamil aggressive hits",
+        "punjabi": "punjabi gritty hits",
+        "default": "raw punk hits"
+      },
+      "90s": {
+        "english": "90s punk rock hits",
+        "hindi": "90s bold bollywood hits",
+        "bengali": "90s gritty bengali hits",
+        "tamil": "90s rough tamil hits",
+        "punjabi": "90s bold punjabi hits",
+        "default": "raw classic rock hits"
+      },
+      "mixed": {
+        "english": "disgust raw mix hits",
+        "hindi": "dark bollywood fusion hits",
+        "bengali": "bold bengali fusion hits",
+        "tamil": "tamil dark mix hits",
+        "punjabi": "punjabi angry mix hits",
+        "default": "bold punk mix hits"
+      }
+    }
+  },
+  "neutral": {
+    "sub_emotions": ["calm", "relaxed", "composed", "peaceful", "serene"],
+    "genres": {
+      "today": {
+        "english": "chill lofi hits",
+        "hindi": "soft bollywood hits",
+        "bengali": "bengali calm hits",
+        "tamil": "tamil light hits",
+        "punjabi": "soft punjabi hits",
+        "default": "instrumental chill hits"
+      },
+      "90s": {
+        "english": "soft 90s pop hits",
+        "hindi": "90s light bollywood hits",
+        "bengali": "90s bengali soothing hits",
+        "tamil": "90s tamil soft hits",
+        "punjabi": "90s soft punjabi hits",
+        "default": "classic chill hits"
+      },
+      "mixed": {
+        "english": "chill mix lofi + 90s hits",
+        "hindi": "calm bollywood mix hits",
+        "bengali": "bengali chill mix hits",
+        "tamil": "tamil soft mix hits",
+        "punjabi": "soft punjabi mix hits",
+        "default": "neutral mix hits"
+      }
+    }
+  },
+  "love": {
+    "sub_emotions": ["romantic", "infatuated", "passionate", "affectionate", "devoted"],
+    "genres": {
+      "today": {
+        "english": "romantic pop hits",
+        "hindi": "romantic bollywood hits",
+        "bengali": "romantic bengali hits",
+        "tamil": "tamil romantic hits",
+        "punjabi": "punjabi romantic hits",
+        "default": "love pop hits"
+      },
+      "90s": {
+        "english": "90s love songs hits",
+        "hindi": "90s romantic bollywood hits",
+        "bengali": "90s romantic bengali hits",
+        "tamil": "90s tamil romantic hits",
+        "punjabi": "90s romantic punjabi hits",
+        "default": "classic love hits"
+      },
+      "mixed": {
+        "english": "romantic mix hits",
+        "hindi": "romantic bollywood fusion hits",
+        "bengali": "bengali love mix hits",
+        "tamil": "tamil romance fusion hits",
+        "punjabi": "punjabi romantic mix hits",
+        "default": "romantic fusion hits"
+      }
+    }
+  },
+  "aesthetic": {
+    "sub_emotions": ["aesthetic", "calm", "peaceful"],
+    "genres": {
+      "today": {
+        "english": "chill pop hits",
+        "hindi": "lofi hindi hits",
+        "bengali": "bengali acoustic hits",
+        "tamil": "tamil lofi hits",
+        "punjabi": "punjabi chill hits",
+        "default": "lofi beats hits"
+      },
+      "90s": {
+        "english": "90s ambient hits",
+        "hindi": "90s romantic hits",
+        "default": "classic lofi hits"
+      },
+      "mixed": {
+        "english": "dream pop hits",
+        "default": "soft lofi hits"
+      }
+    }
+  }
+}
