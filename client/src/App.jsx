@@ -79,7 +79,7 @@ function App() {
     setError(null);
 
     try {
-      const res = await axios.post("/api/analyze", {
+      const res = await axios.post("https://moodify-8.onrender.com/api/analyze", {
         imageData: image,
         language,
         era,
