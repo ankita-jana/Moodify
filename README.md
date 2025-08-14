@@ -1,6 +1,6 @@
 # 🎵 Moodify
 
-Moodify is a web application that recommends songs based on your current mood using a static dataset.  
+Moodify is a web application that recommends songs based on your current mood.
 It’s built with **React (Vite)** on the frontend and **Node.js + Express** on the backend.
 
 ---
