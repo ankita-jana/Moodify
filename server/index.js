@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:3000'],
+  origin: '*',
   methods: ['GET', 'POST'],
   credentials: true
 }));
@@ -86,7 +86,7 @@ app.post("/api/analyze", async (req, res) => {
     }
 
     // 🔁 Call Python backend
-    const pyRes = await axios.post("http://127.0.0.1:5001/analyze", {
+    const pyRes = await axios.post("https://moodify-7-okjh.onrender.com/analyze", {
       imageData,
       language: language.toLowerCase(),
       era: era.toLowerCase()
@@ -171,7 +171,8 @@ app.post("/api/analyze", async (req, res) => {
 // 🧪 Health Check
 app.get("/api/health", async (req, res) => {
   try {
-    const pyHealth = await axios.get("http://127.0.0.1:5001/", { timeout: 3000 });
+    const pyHealth = await axios.get("https://moodify-7-okjh.onrender.com/", { timeout: 3000 });
+
     res.json({
       status: "healthy",
       services: {
