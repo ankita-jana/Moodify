@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     port: 5173,
     proxy: {
-      '/api': 'https://moodify-8.onrender.com', // Connects to Node backend
+      '/api': 'http://localhost:5000', // Connects to Node backend
     },
     hmr: {
       overlay: false,
