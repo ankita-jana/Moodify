@@ -9,14 +9,14 @@ It’s built with **React (Vite)** on the frontend and **Node.js + Python** on t
 - 🎯 Detects your mood (based on input)
 - 🎵 Recommends songs from a curated dataset
 - ⚡ Fast and responsive interface
-- 🌐 Ready for deployment on Render / Vercel
+
 
 ---
 
 ## 🛠️ Tech Stack
 **Frontend:** React (Vite), CSS  
-**Backend:** Node.js, Express  
-**Data:** Static JSON dataset (~9 KB)
+**Backend:** Node.js, Python
+**Data:** JSON dataset
 
 ---
 
