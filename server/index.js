@@ -190,6 +190,6 @@ app.get("/api/health", async (req, res) => {
 });
 
 // 🚀 Launch
-app.listen(PORT, () => {
-  console.log(`\n🎧 Emotion Music API running at http://127.0.0.1:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🎧 Emotion Music API running at http://0.0.0.0:${PORT}`);
 });
