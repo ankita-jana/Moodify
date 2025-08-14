@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import axios from "axios";
+import api from "./api"; // instead of axios directly
 import "./App.css";
 
 function App() {
@@ -79,11 +79,12 @@ function App() {
     setError(null);
 
     try {
-      const res = await axios.post("https://moodify-8.onrender.com/api/analyze", {
-        imageData: image,
-        language,
-        era,
-      });
+      const res = await api.post("/api/analyze", {
+           imageData: image,
+           language,
+          era,
+    });
+
 
       setEmotion(res.data.emotion);
       setGenre(res.data.genre);
