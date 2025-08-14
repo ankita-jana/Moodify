@@ -20,4 +20,4 @@ It’s built with **React (Vite)** on the frontend and **Node.js + Python** on t
 
 ---
 
-## 📂 Project Structure
+
