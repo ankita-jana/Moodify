@@ -3,7 +3,7 @@
     "sub_emotions": ["joyful", "cheerful", "content", "excited", "delighted"],
     "genres": {
       "today": {
-        "english": "pop upbeat hits",
+        "english": "english pop upbeat hits",
         "hindi": "bollywood dance hits",
         "bengali": "bengali pop hits",
         "tamil": "tamil upbeat hits",
@@ -32,7 +32,7 @@
     "sub_emotions": ["melancholy", "gloomy", "blue", "downcast", "sorrowful"],
     "genres": {
       "today": {
-        "english": "sad pop hits",
+        "english": "engish sad pop hits",
         "hindi": "bollywood heartbreak hits",
         "bengali": "bengali sad hits",
         "tamil": "tamil sad hits",
@@ -61,7 +61,7 @@
     "sub_emotions": ["frustrated", "irritated", "mad", "enraged", "agitated"],
     "genres": {
       "today": {
-        "english": "hard rock hits",
+        "english": "english hard rock hits",
         "hindi": "bollywood rage hits",
         "bengali": "bengali rock hits",
         "tamil": "tamil intense hits",
@@ -90,7 +90,7 @@
     "sub_emotions": ["anxious", "nervous", "scared", "tense", "worried"],
     "genres": {
       "today": {
-        "english": "dark ambient hits",
+        "english": "english dark ambient hits",
         "hindi": "bollywood thriller hits",
         "bengali": "bengali suspense hits",
         "tamil": "tamil suspense hits",
@@ -178,7 +178,7 @@
     "genres": {
       "today": {
         "english": "chill lofi hits",
-        "hindi": "soft bollywood hits",
+        "hindi": "soft romantic bollywood hits",
         "bengali": "bengali calm hits",
         "tamil": "tamil light hits",
         "punjabi": "soft punjabi hits",
