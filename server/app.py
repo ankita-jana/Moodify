@@ -78,7 +78,7 @@ def analyze():
 
         # Extra: special case for aesthetic / unclear images
         if matched_emotion == "aesthetic":
-            genre = "lofi chill beats"  # better fit for aesthetic mood
+            genre = " lofi hip-hop"  # better fit for aesthetic mood
 
         return jsonify({
             "base_emotion": matched_emotion,
