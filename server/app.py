@@ -5,6 +5,7 @@ import base64
 import tempfile
 import os
 import json
+import random
 
 app = Flask(__name__)
 CORS(app)
@@ -66,8 +67,8 @@ def analyze():
             matched_emotion = "aesthetic"  # fallback for blurry / unclear images
 
         # Get emotion info from config
-        emotion_info = EMOTION_MAP.get(matched_emotion, EMOTION_MAP["neutral"])
-        varied_emotion = emotion_info.get("sub_emotions", [matched_emotion])[0]
+        sub_emotions = emotion_info.get("sub_emotions", [matched_emotion])
+        varied_emotion = random.choice(sub_emotions)
 
         # Validate era
         selected_era = era if era in ["today", "90s", "mixed"] else "today"
