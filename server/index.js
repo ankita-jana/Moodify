@@ -5,6 +5,7 @@ const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const PY_BACKEND_URL = process.env.PY_BACKEND_URL;
 
 app.use(cors({
   origin: '*',
@@ -86,7 +87,7 @@ app.post("/api/analyze", async (req, res) => {
     }
 
     // 🔁 Call Python backend
-    const pyRes = await axios.post("https://moodify-7-okjh.onrender.com/analyze", {
+    const pyRes = await axios.post(`${PY_BACKEND_URL}/analyze`, {
       imageData,
       language: language.toLowerCase(),
       era: era.toLowerCase()
@@ -171,7 +172,7 @@ app.post("/api/analyze", async (req, res) => {
 // 🧪 Health Check
 app.get("/api/health", async (req, res) => {
   try {
-    const pyHealth = await axios.get("https://moodify-7-okjh.onrender.com/", { timeout: 3000 });
+    const pyHealth = await axios.get(`${PY_BACKEND_URL}/`, { timeout: 3000 });
 
     res.json({
       status: "healthy",
