@@ -67,6 +67,7 @@ def analyze():
             matched_emotion = "aesthetic"  # fallback for blurry / unclear images
 
         # Get emotion info from config
+        emotion_info = EMOTION_MAP.get(matched_emotion, {})
         sub_emotions = emotion_info.get("sub_emotions", [matched_emotion])
         varied_emotion = random.choice(sub_emotions)
 
