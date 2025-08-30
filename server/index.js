@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000;
 const PY_BACKEND_URL = process.env.PY_BACKEND_URL;
 
 app.use(cors({
-  origin: '*',
+  origin: "https://moodifyy-nhq7.onrender.com",
   methods: ['GET', 'POST'],
   credentials: true
 }));
