@@ -8,9 +8,9 @@ const PORT = process.env.PORT || 5000;
 const PY_BACKEND_URL = process.env.PY_BACKEND_URL;
 
 app.use(cors({
-  origin: "https://moodifyy-nhq7.onrender.com",
-  methods: ['GET', 'POST'],
-  credentials: true
+  origin: "*", // Allows all origins
+  methods: ['GET', 'POST', 'OPTIONS'],
+  credentials: false // Set to false when origin is "*"
 }));
 
 app.use(express.json({ limit: "50mb" }));
