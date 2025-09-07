@@ -108,9 +108,7 @@ app.post("/api/analyze", async (req, res) => {
     let queries = [
       `${genre} ${detectedLanguage}`,         
       `${detectedLanguage} songs`,            
-      "trending music",                       
       broadenQuery(`${genre} ${detectedLanguage}`), 
-      "pop music"                              
     ];
 
     let tracks = [];
